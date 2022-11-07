@@ -1,0 +1,194 @@
+{
+    "graphics": {
+        "alpha": 1.0,
+        "gamma": 1.0,
+        "environment": [
+            0.7083,
+            0.5,
+            0.167,
+            0.2
+        ]
+    },
+    "materials": {
+		"Ball":{
+            "type": "Opaque",
+            "albedo": [
+                1,
+                0,
+                0
+            ]
+		},
+        "Floor": {
+            "type": "Opaque",
+            "albedo": [
+                0.725,
+                0.71,
+                0.68
+            ]
+        },
+        "LightPanel": {
+            "type": "Opaque",
+            "albedo": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "emission": [
+                0.7083,
+                0.5,
+                0.167,
+                5.0
+            ]
+        }
+    },
+    "objects": {
+        "Floor": {
+            "scale": [
+                6,
+                6,
+                6
+            ],
+            "rotation": [
+                180,
+                0,
+                0
+            ],
+            "mesh": "quad",
+            "material": "Floor"
+        },
+		"ball1":{
+            "scale": [
+                0.3,
+                0.3,
+                0.3
+            ],
+			"position": [
+			0,0.15,0],
+			"material":"Ball",
+			"mesh": "sphere"
+		},
+		"ball2":{
+            "scale": [
+                0.3,
+                0.3,
+                0.3
+            ],
+			"position": [
+			0.6,
+			0.15,
+			0.6],
+			"material":"Ball",
+			"mesh": "sphere"
+		},
+		"ball3":{
+            "scale": [
+                0.3,
+                0.3,
+                0.3
+            ],
+			"position": [
+			1.2,
+			0.15,
+			1.2],
+			"material":"Ball",
+			"mesh": "sphere"
+		},
+		"ball4":{
+            "scale": [
+                0.3,
+                0.3,
+                0.3
+            ],
+			"position": [
+			-1.2,
+			0.15,
+			-1.2],
+			"material":"Ball",
+			"mesh": "sphere"
+		},
+		"ball5":{
+            "scale": [
+                0.3,
+                0.3,
+                0.3
+            ],
+			"position": [
+			-0.6,
+			0.15,
+			-0.6],
+			"material":"Ball",
+			"mesh": "sphere"
+		},
+			
+	"LightPanel": {
+            "position": [
+                0,
+                1.5,
+                0
+            ],
+            "scale": [
+                4,
+                4,
+               4
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "mesh": "quad",
+            "material": "LightPanel"
+        }
+    },
+    "lights": {
+        "SpotLight": {
+            "type": "spot",
+            "active": true,
+            "position": [0.0, 1, 0.0],
+            "direction": [0.0, -1.0, 0.0],
+            "outer angle": 120.0,
+            "inner angle": 0.0,
+            "emission": [
+                0.7083,
+                0.5,
+                0.167,
+                3.0
+            ],
+            "shadowmap": true,
+            "contact shadow": 0.00005
+        },
+        "PointLight": {
+            "type": "point",
+            "active": true,
+            "position": [0.0,
+                1, 0.0
+            ],
+            "emission": [
+                0.7083,
+                0.5,
+                0.167,
+                1.0
+            ],
+            "radius": 10.0,
+            "shadowmap": false
+        }
+    },
+    "cameras": {
+        "Camera": {
+            "position": [
+                2.4,
+                0.5,
+                4
+            ],
+            "forward": [
+                -2.4,
+                -0.5,
+                -4
+            ],
+            "up": [
+                0, 1, 0
+            ],
+            "fov": 25
+        }
+    }
+}
