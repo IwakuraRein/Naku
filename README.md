@@ -4,7 +4,7 @@ This is a toy renderer developed in Vulkan. It's unfinished and codes are a bit 
 
 ## Features
 
-<video src="https://user-images.githubusercontent.com/28486541/200195281-3906004f-3220-4657-b108-eec6fa4fe30d.mp4"></video>
+<video src="https://user-images.githubusercontent.com/28486541/202858685-5ffbc4ae-d736-40f6-94bf-79cdf4304e90.mp4"></video>
 
 **Finished**
 
