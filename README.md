@@ -1,6 +1,6 @@
 # Naku
 
-This is a toy renderer developed in Vulkan. It's unfinished and codes are a bit messy.
+This is a toy renderer developed in Vulkan.
 
 ## Features
 
